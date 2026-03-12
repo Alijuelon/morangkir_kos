@@ -34,8 +34,7 @@
                 </h4>
 
                 <p class="text-slate-400">
-                  Jl. Contoh Mewah No. 123, Kawasan Sudirman,
-                  Jakarta Selatan 12190
+                  Jl.Lembaga, Gg.Ibrahim, Senggoro, Bengkalis, Riau
                 </p>
               </div>
 
@@ -61,7 +60,7 @@
                 </p>
 
                 <p class="text-xl font-mono text-white mt-1">
-                  085365488875
+                  +62-853-6548-8875
                 </p>
 
               </div>
@@ -72,7 +71,7 @@
 
           <!-- BUTTON WHATSAPP -->
           <a
-            href="https://wa.me/085365488875"
+            href="https://wa.me/+6285365488875"
             target="_blank"
             rel="noopener"
             class="inline-flex items-center justify-center gap-3 w-full md:w-auto px-8 py-4 rounded-xl bg-green-500 hover:bg-green-600 text-white font-bold transition-colors shadow-lg shadow-green-500/20"
@@ -91,12 +90,12 @@
             class="absolute inset-0 bg-amber-500/20 mix-blend-overlay pointer-events-none z-10 group-hover:opacity-0 transition-opacity duration-500"
           ></div>
 
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.466738981442!2d106.8249641!3d-6.202024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTInMDcuMyJTIDEwNsKwNDknMjkuOSJF!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid"
-            class="w-full h-full border-0 grayscale invert-[90%] contrast-[1.2] group-hover:grayscale-0 group-hover:invert-0 transition-all duration-700"
-            loading="lazy"
-            allowfullscreen
-          ></iframe>
+     <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.342371926619!2d102.133221!3d1.448556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d15fc32c1c3f2d%3A0x6d9f7a77e0c4a6a!2sJl.%20Lembaga%2C%20Senggoro%2C%20Kec.%20Bengkalis%2C%20Kabupaten%20Bengkalis%2C%20Riau!5e0!3m2!1sid!2sid!4v1709500000000!5m2!1sid!2sid"
+  class="w-full h-full border-0 grayscale invert-[90%] contrast-[1.2] group-hover:grayscale-0 group-hover:invert-0 transition-all duration-700"
+  loading="lazy"
+  allowfullscreen
+></iframe>
 
         </div>
 

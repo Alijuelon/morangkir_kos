@@ -1,49 +1,47 @@
 <script setup>
 import { ref } from 'vue'
+import depan from '../assets/images/depan.jpeg'
+import tempatTidur from '../assets/images/tempatTidur.jpeg'
+import fasilitas from '../assets/images/fasilitas.jpeg'
+import kamarMandi from '../assets/images/kamarMandi.jpeg'
+import dapur from '../assets/images/dapur.jpeg'
 
 const photos = ref([
   {
     id: 1,
-    title: 'Fasad Eksklusif',
-    url: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop',
+    title: 'Tampak Depan',
+    url: depan,
     desc: 'Tampak depan modern dengan pencahayaan hangat dan keamanan 24 jam.',
-    details: 'Bangunan 3 lantai dengan arsitektur kontemporer. Dilengkapi dengan akses smart-key door, CCTV di setiap sudut, dan area parkir yang luas. Pencahayaan malam dirancang khusus untuk memberikan kesan hangat dan menyambut setiap penghuni yang pulang bekerja.'
+    details: 'Bangunan 1 lantai dengan arsitektur kontemporer. Dilengkapi dengan akses key door, CCTV, dan area parkir yang cukup untuk kendaran roda dua. Pencahayaan malam dirancang khusus untuk memberikan kesan hangat dan menyambut setiap penghuni yang pulang bekerja.'
   },
   {
     id: 2,
-    title: 'Interior Kamar Mewah',
-    url: 'https://images.unsplash.com/photo-1522771731478-44eb1ab8bc6e?q=80&w=800&auto=format&fit=crop',
-    desc: 'Ruang istirahat lega dengan furnitur premium.',
-    details: 'Setiap kamar didesain layaknya kamar hotel suite. Dilengkapi Springbed Queen Size, AC 1/2 PK, Smart TV 32 Inch, Meja Kerja Ergonomis untuk WFH, Lemari Pakaian berkapasitas besar, dan jendela lebar untuk sirkulasi udara optimal.'
+    title: 'Interior Kamar',
+    url: tempatTidur,
+    desc: 'Ruang istirahat lega.',
+    details: 'Setiap kamar didesain untuk kenyamanan yang baik. Dilengkapi tempat tidur, AC, Meja Kerja, Lemari Pakaian, dan jendela untuk sirkulasi udara optimal.'
   },
   {
     id: 3,
     title: 'Kamar Mandi Dalam',
-    url: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?q=80&w=800&auto=format&fit=crop',
-    desc: 'Bersih, elegan, bergaya hotel berbintang.',
-    details: 'Kamar mandi privat di dalam kamar yang mengutamakan kebersihan dan estetika. Fasilitas meliputi Water Heater (Pemanas Air), Shower eksklusif, Closet duduk Toto, cermin LED, dan Exhaust Fan untuk menjaga ruangan tetap kering dan segar.'
+    url: kamarMandi,
+    desc: 'Bersih dan lengkap.',
+    details: 'Kamar mandi privat di dalam kamar.'
   },
   {
     id: 4,
-    title: 'Area Lounge & Dapur',
-    url: 'https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=800&auto=format&fit=crop',
-    desc: 'Dapur bersama yang bersih dan estetis.',
-    details: 'Area komunal yang luas dan nyaman untuk bersosialisasi. Terdapat Kulkas 2 Pintu berukuran besar, Microwave, Dispenser Air Panas/Dingin, kompor tanam, peralatan masak dasar, dan meja makan ala mini bar yang terbuat dari marmer.'
+    title: 'Area Dapur',
+    url: dapur,
+    desc: 'Dapur bersama yang bersih .',
+    details: 'Area yang nyaman untuk memasak. Terdapat washtafel.'
   },
   {
     id: 5,
-    title: 'Balkon Santai',
-    url: 'https://images.unsplash.com/photo-1527689638836-411945a2b57c?q=80&w=800&auto=format&fit=crop',
-    desc: 'Area belakang untuk bersantai menghirup udara segar.',
-    details: 'Tempat pelarian yang sempurna setelah seharian menatap layar. Balkon ini dilengkapi dengan kursi santai estetik, tanaman hias hijau, area merokok khusus (smoking area) yang terpisah, dan pemandangan gemerlap kota di malam hari.'
+    title: 'Fasilitas dalam kamar',
+    url: fasilitas,
+    desc: 'Area untuk bersantai dan istrahat.',
+    details: 'Setiap kamar didesain untuk kenyamanan yang baik. Dilengkapi tempat tidur, AC, Meja Kerja, Lemari Pakaian, dan jendela untuk sirkulasi udara optimal.'
   },
-  {
-    id: 6,
-    title: 'Parkiran Aman',
-    url: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop',
-    desc: 'Garasi luas di lantai dasar.',
-    details: 'Area parkir kendaraan yang aman dan tertutup. Memiliki kapasitas hingga 10 Mobil dan 20 Motor. Terlindung dari panas dan hujan, serta diawasi oleh kamera CCTV 24 jam dan penjagaan satpam malam yang rutin berpatroli.'
-  }
 ])
 
 const activeModal = ref(null)

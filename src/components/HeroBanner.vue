@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-
+import depan from '../assets/images/depan.jpeg'
+import fasilitas from '../assets/images/fasilitas.jpeg'
 // Menyimpan posisi mouse untuk efek Parallax 3D
 const mouseX = ref(0)
 const mouseY = ref(0)
@@ -37,7 +38,7 @@ onUnmounted(() => {
             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
             <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
           </span>
-          Hunian Premium #1 di Pusat Kota
+          Hunian Nyaman #1 
         </div>
 
         <h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-[1.1] tracking-tight text-slate-900 dark:text-white">
@@ -76,13 +77,13 @@ onUnmounted(() => {
           <div class="absolute top-10 right-0 w-3/4 h-80 glass-panel p-2 shadow-2xl transition-transform duration-500 ease-out" :style="{ transform: `translateZ(20px) translateX(${mouseX * -20}px) translateY(${mouseY * -20}px)` }">
             <div class="w-full h-full rounded-2xl overflow-hidden relative">
               <div class="absolute inset-0 bg-amber-500/20 mix-blend-overlay z-10"></div>
-              <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop" alt="Fasad" class="w-full h-full object-cover" />
+              <img src="../assets/images/tempatTidur.jpeg" alt="Fasad" class="w-full h-full object-cover" />
             </div>
           </div>
 
           <div class="absolute bottom-0 left-0 w-2/3 h-64 glass-card p-2 shadow-2xl border-white/20 transition-transform duration-500 ease-out" :style="{ transform: `translateZ(60px) translateX(${mouseX * 30}px) translateY(${mouseY * 30}px)` }">
             <div class="w-full h-full rounded-xl overflow-hidden relative">
-              <img src="https://images.unsplash.com/photo-1522771731478-44eb1ab8bc6e?q=80&w=600&auto=format&fit=crop" alt="Interior" class="w-full h-full object-cover" />
+              <img src="../assets/images/depan.jpeg" alt="Interior" class="w-full h-full object-cover" />
               <div class="absolute bottom-0 w-full p-4 bg-gradient-to-t from-black/80 to-transparent">
                 <p class="text-white font-semibold text-lg drop-shadow-md">Kamar Suite Premium</p>
               </div>
